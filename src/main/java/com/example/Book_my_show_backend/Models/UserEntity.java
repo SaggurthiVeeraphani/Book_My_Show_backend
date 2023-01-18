@@ -1,10 +1,7 @@
 package com.example.Book_my_show_backend.Models;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.util.Date;
@@ -15,6 +12,8 @@ import java.util.List;
 @Setter
 @Data
 @NoArgsConstructor
+@Builder
+@AllArgsConstructor
 @Table(name = "users")
 public class UserEntity {
     @Id

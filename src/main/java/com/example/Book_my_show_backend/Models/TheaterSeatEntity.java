@@ -15,8 +15,6 @@ public class TheaterSeatEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-
-    @Column(unique = true,columnDefinition = "seat_no",nullable = false)
     private String SeatNo;
 
     @Enumerated(value = EnumType.STRING)
