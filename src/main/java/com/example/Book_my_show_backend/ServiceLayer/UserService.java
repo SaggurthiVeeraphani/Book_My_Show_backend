@@ -5,6 +5,7 @@ import com.example.Book_my_show_backend.Models.UserEntity;
 import com.example.Book_my_show_backend.Repository.UserRepository;
 import com.example.Book_my_show_backend.RequestDto.UserRequestDto;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,5 +23,12 @@ public class UserService {
          return "create userentity has an issue";
      }
      return "User is successfully created";
+    }
+
+    public UserRequestDto getUserByname(String name){
+        UserEntity user = userRepository.findByName(name);
+        UserRequestDto userRequestDto = UserRequestDto.builder().name(user.getName()).mobile(user.getMobile()).build();
+        return userRequestDto;
+
     }
 }

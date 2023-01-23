@@ -1,6 +1,7 @@
 package com.example.Book_my_show_backend.Models;
 
 import jakarta.persistence.*;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDate;
@@ -9,6 +10,12 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
+@Builder
+@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name ="shows")
 public class ShowEntity {
 
@@ -19,6 +26,8 @@ public class ShowEntity {
     private LocalDate showdate;
 
     private LocalTime showtime;
+
+    private double multiplier;
 
     @CreationTimestamp
     private Date createdOn;

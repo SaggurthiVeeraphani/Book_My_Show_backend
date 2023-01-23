@@ -5,10 +5,7 @@ import com.example.Book_my_show_backend.RequestDto.UserRequestDto;
 import com.example.Book_my_show_backend.ServiceLayer.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/user")
@@ -24,6 +21,10 @@ public class UserController {
     }
 
     // HW --- find user by name
+    @GetMapping("/get-user/{name}")
+    public UserRequestDto getUser(@PathVariable(name = "name")String name){
+        return userservice.getUserByname(name);
+    }
 
     // HW --- find all users
 }
