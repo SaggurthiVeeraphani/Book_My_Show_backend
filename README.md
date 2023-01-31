@@ -32,7 +32,7 @@ For the simplicity of system, I have made following assumptions while implementi
 
 4.No Payment flow used.
 
-#API Details
+## API Details
 
 1.UserController - API to add and get user.
 
