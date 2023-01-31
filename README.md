@@ -43,3 +43,21 @@ For the simplicity of system, I have made following assumptions while implementi
 4. ShowController - API to add show.
 
 5. MovieController - API to add movie.
+
+## Learnings from Project
+
+1. Spring Boot Annotations
+ 
+2. Different Layers of API
+ 
+3. MYSQL DB connection
+ 
+4. DB Designing
+
+## Future Scope
+
+1. Multiple Screen handling in theater
+
+2. Payment Flow
+
+
