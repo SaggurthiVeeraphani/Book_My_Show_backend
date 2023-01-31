@@ -14,7 +14,7 @@
 
 6.Exception Handling is done.Unit test cases are present for User Operations - User Registration and User Get. Cases for exceptions are also handled.
 
-7.Dependencies used : 1.Dependencies 2. Spring Data JPA SQL 3.Lombok 4.MySQL Driver 5.swagger
+7.Dependencies used : 1.Spring Web   2. Spring Data JPA SQL   3.Lombok   4.MySQL Driver   5.swagger
 
 ## Author
 
