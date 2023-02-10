@@ -68,6 +68,9 @@ For the simplicity of system, I have made following assumptions while implementi
 
 ![image](https://user-images.githubusercontent.com/116447342/217997048-5d00163d-61a4-4c3b-aff7-ff6ea323b2cb.png)
 
+![image](https://user-images.githubusercontent.com/116447342/217997205-e48a2bab-27ab-422c-bf43-f48a9e975aac.png)
+
+
 
 
 
