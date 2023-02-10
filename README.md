@@ -4,7 +4,7 @@
 
 1. This application is developed in Spring Boot 3.0.2 with the Maven build tool and Java 17. The database used is MySQL 8.0.31.
 
-2. This project reflects the backend API structure, with multiple API layers and has arount 10 to 12 API s.
+2. This project reflects the backend API structure, with multiple API layers and has around 10 to 12 API s.
 
 3. This project consists of models such as User, Ticket, Theater Seat, Theater, Show Seat,  Show, Movies.
 
