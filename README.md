@@ -60,4 +60,8 @@ For the simplicity of system, I have made following assumptions while implementi
 
 2. Payment Flow
 
+##Project Images
+
+![image](https://user-images.githubusercontent.com/116447342/217995468-4ee5c089-2e04-4e24-93bb-7e64a00dc57e.png)
+
 
